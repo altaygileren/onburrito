@@ -1,0 +1,316 @@
+body {
+  background-color: #ececec;
+}
+
+.routes {
+  margin-top: 10rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.headerImg {
+  margin-top: 8rem;
+}
+.headerLogo {
+  font-family: 'Slabo 27px', serif;
+  color: white;
+  font-size: 5rem;
+  text-transform: none;
+}
+.navbar-inverse .navbar-brand {
+  color: white;
+  font-weight: 700;
+}
+.accountSpace {
+  margin-right: 1rem;
+}
+
+
+
+/* Navbar */
+.navbar {
+  background-image: none;
+  background-color: rgba(58,40,33,.9);
+  border-color: none;
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+.navbar-inverse {
+  border-color: rgba(58,40,33,.9);
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+.headerAccount {
+  float: left;
+}
+
+
+
+/* Header Text/Image */
+.menuHeaderSection {
+  text-align: center;
+  margin-bottom: 3rem;
+  margin-top: 10rem;
+  position: relative;
+}
+.textOverImg {
+  position: absolute;
+  font-size: 60px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  width: 100%;
+  background-color: rgba(0,0,0,.6);
+}
+
+
+
+/* Nutrition */
+.foodNutriList > li {
+  cursor: pointer;
+  padding: 1px;
+  list-style: none;
+  width: 150px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 2rem;
+}
+.nutriListHeader {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 3rem;
+}
+.foodNutriList > li:hover {
+  background-color: rgb(58,40,33);
+  color: white;
+}
+
+
+
+/* FAQ */
+.Collapsible {
+  /* background-color:rgba(58, 40, 33, 0.95); */
+  color: #3e2723;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 1.8rem;
+  text-align: left;
+  margin-left: 3rem;
+  padding: 0;
+}
+.Collapsible:hover {
+  cursor: pointer;
+}
+.Collapsible__contentInner {
+  font-family: 'PT Sans Narrow', sans-serif;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  font-size: 2rem;
+  color: #3e2723;
+}
+
+hr {
+  background-color: black;
+  height: 0.2rem;
+}
+
+
+
+/* Boxes */
+.boxStyle {
+  background-color:#3e2723;
+  color: white;
+  border-radius: 1rem;
+  text-align: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  /* border: 5px solid red; */
+  width: 100%;
+  height: 200px;
+}
+.boxHeader {
+  font-weight: bold;
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+.boxText {
+  color: white;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+
+/* Menu */
+.centerEver {
+  margin: 0 auto;
+}
+.menuSection {
+  margin: 0 auto;
+  text-align: center;
+  list-style: none;
+  background-color:#3e2723;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: white;
+  border-radius: 1rem;
+  height: 200px;
+  padding-top: 5px;
+  margin-bottom: 2rem;
+  /* border: 5px solid red; */
+}
+
+
+
+/* User */
+
+.individualAllOrders {
+  font-family: 'PT Sans Narrow', sans-serif;
+  background-color:rgba(58, 40, 33, 0.95);
+  font-size: 2rem;
+  color: white;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 1rem;
+}
+
+
+
+/* Login Form */
+.loginForm {
+  margin-bottom: 3rem;
+  /* border: 5px solid red; */
+}
+.userDisp {
+  margin: 0 auto;
+}
+
+
+
+/* Signup Form */
+.signupParagraph {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 2rem;
+}
+
+
+
+/* Social Media Bar */
+/* .icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 50;
+  margin-left: 1rem;
+}
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 1rem;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 1rem;
+}
+.icon-bar a:hover {
+  background-color: #000;
+}
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+.google {
+  background: #dd4b39;
+  color: white;
+}
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+.youtube {
+  background: #bb0000;
+  color: white;
+} */
+
+
+
+/* Footer */
+.foot {
+  background-color: rgb(58,40,33);
+  padding-bottom: 100px;
+  padding-top: 20px;
+  margin-top: 10rem;
+  color: white;
+}
+.footerList > li {
+  list-style: none;
+  text-align: left;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.8rem;
+}
+.footerHeader {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 2rem;
+}
+
+
+
+
+/* Timeline */
+.vertical-timeline-element-title {
+  color: rgba(58,40,33);
+  font-family: 'Fjalla One', sans-serif;
+}
+.timelineParagraph {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+.timelineHeadline {
+  font-family: 'Fjalla One', sans-serif;
+  text-align: center;
+}
+.timelineBg {
+  background-color: rgb(58,40,33);
+  font-family: 'Slabo 27px', serif;
+  font-size: 6rem;
+  color: white;
+}
+
+
+
+
+
+/* Media Queries */
+
+.mobileText {
+  display: none;
+}
+
+@media only screen 
+    and (min-width: 320px)
+    and (max-width: 768px)
+{ 
+  .textOverImg {
+    font-size: 2rem;
+}
+.mobileText {
+  display: block;
+}
+.boxText {
+  font-size: 2rem;
+}
+}
